@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   justify-content: center;  
+}
+.logo{
+    cursor: pointer;
+}
+
+header nav{
+    position: relative;
+    left: 120px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.list{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    right: 400px;
+    top: 0;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    font-size: 20px;
+}
+.header button{
+    background-color: #5955b3 ;
+    color: white;
+    padding: 10px 20px;
+      margin-right: 20px;
+      position: relative;
+      right: 140px;
+      border: 1px solid black;
+      border-radius: 5px;
+}
+.header button:hover{
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    justify-content: center;
+}
+.pera{
+    font-size: 50px;
+    font-weight: bold;
+}
+span{
+    color: #5955b3;
+}
+#id{
+    background-color:#5955b3 ;
+    color: #fff;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 5px;
+    top: 40px;
+} 
+#id:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
